@@ -451,6 +451,7 @@ footer {
 @media (max-width: 1110px) {
   body {
     right: 0;
+	overflow-x: hidden;
   }
   #header #navbar {
     -webkit-box-orient: vertical;
@@ -458,6 +459,12 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 100px;
+  }
+  #header #navbar nav ul li a {
+	  padding: 0px;
+  }
+  #contact .skew-content {
+	  width: 80%;
   }
   #intro {
     width: 80%;
